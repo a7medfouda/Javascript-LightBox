@@ -1,0 +1,54 @@
+.over-layer {
+    background-color: rgba(208, 113, 113, .5);
+    position:absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.parent {
+    position: relative;
+    background-color: red;
+}
+.col-md-4 {
+    margin-bottom: 20px;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.pop-up {
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.left, 
+.right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
+.close {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+i {
+    color: black;
+    font-size: 18px;
+}
